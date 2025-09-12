@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "../../../assets/header-logo.png";
-
+import Button from "@mui/material/Button";
 const navs = [
   { name: "Home", href: "/" },
   { name: "Blog", href: "/blog" },
@@ -13,10 +13,9 @@ const navs = [
   { name: "Contact", href: "/contact" },
 ];
 
-
 function Header() {
   const pathname = usePathname();
-  
+
   return (
     <div className=" roundedEli flex justify-between items-center mx-auto w-[90%] py-4">
       <div className="flex flex-row gap-[20em]">
@@ -43,10 +42,29 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-row gap-4 text-center">
-        <button className="inline-block">Sign In</button>
-        <button className="inline-block bg-[#000000] text-[#ffffff] rounded-4xl px-4 py-2">
+        <Button
+          variant="text"
+          sx={{
+            textTransform: "capitalize",
+            fontSize: "1rem",
+            color: "#000000",
+          }}
+        >
+          Sign In
+        </Button>
+
+        <Button
+          variant="contained"
+          sx={{
+            color: "#ffffff",
+            background: "#000000",
+            textTransform: "capitalize",
+            fontSize: "1rem",
+            borderRadius: "4rem",
+          }}
+        >
           Get Started Free
-        </button>
+        </Button>
       </div>
     </div>
   );

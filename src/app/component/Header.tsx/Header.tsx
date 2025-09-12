@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "../../../assets/header-logo.png";
-import Button from "@mui/material/Button";
+import Btn from "../utility/Btn";
+import { Button } from "@mui/material";
 const navs = [
   { name: "Home", href: "/" },
   { name: "Blog", href: "/blog" },
@@ -52,19 +53,7 @@ function Header() {
         >
           Sign In
         </Button>
-
-        <Button
-          variant="contained"
-          sx={{
-            color: "#ffffff",
-            background: "#000000",
-            textTransform: "capitalize",
-            fontSize: "1rem",
-            borderRadius: "4rem",
-          }}
-        >
-          Get Started Free
-        </Button>
+        <Btn />
       </div>
     </div>
   );

@@ -8,6 +8,9 @@ import ellipse4 from "../assets/logo (5).png";
 import ellipse5 from "../assets/Ellipse 5.png";
 import ellipse6 from "../assets/logo (6).png";
 import Facilities from "./component/Facilities";
+import Solutions from "./component/Solutions";
+import Listing from "./component/Listing";
+
 function page() {
   return (
     <div>
@@ -62,6 +65,8 @@ function page() {
         </div>
       </div>
       <Facilities />
+      <Solutions />
+      <Listing />
     </div>
   );
 }

@@ -10,6 +10,7 @@ import ellipse6 from "../assets/logo (6).png";
 import Facilities from "./component/Facilities";
 import Solutions from "./component/Solutions";
 import Listing from "./component/Listing";
+import Value from "./component/Value";
 
 function page() {
   return (
@@ -67,6 +68,7 @@ function page() {
       <Facilities />
       <Solutions />
       <Listing />
+      <Value />
     </div>
   );
 }

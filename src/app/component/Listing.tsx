@@ -13,6 +13,11 @@ const rentals = [
     desc: "Are you looking to find your dream home or invest in a lucrative property.",
   },
   {
+    img: house3,
+    name: "Harmony",
+    desc: "Our agents will guide you through the entire buying process, from property ",
+  },
+  {
     img: house2,
     name: "Woodland Retreat",
     desc: "When it comes to selling your property, our team is equipped with the expertise.",
@@ -27,7 +32,13 @@ const rentals = [
     name: "Harmony",
     desc: "Our agents will guide you through the entire buying process, from property ",
   },
+  {
+    img: house3,
+    name: "Harmony",
+    desc: "Our agents will guide you through the entire buying process, from property ",
+  },
 ];
+
 function Listing() {
   return (
     <div className="listing">
@@ -38,7 +49,7 @@ function Listing() {
           Services
         </span>
       </div>
-      <div className="flex flex-row justify-between items-center my-[3.5em]">
+      <div className="flex flex-row mx-auto  items-center justify-center my-[3.5em]  overflow-auto shrink-0 w-[2500px] ">
         {rentals.map(({ img, name, desc }, index) => (
           <div key={index}>
             <div>
@@ -48,7 +59,7 @@ function Listing() {
                 className="max-w-full object-fill"
               />
             </div>
-            <div className=" ">
+            <div>
               <div className="flex flex-col py-4 ">
                 <span className="inline-block text-xl font-bold">{name}</span>
                 <span className="inline-block w-[60%] ">{desc}</span>
@@ -63,6 +74,7 @@ function Listing() {
                   alignItems: "center",
                   color: "#000000",
                   p: 0,
+                  fontWeight: "bold",
                 }}
               >
                 Book Now{" "}
@@ -74,7 +86,7 @@ function Listing() {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g opacity=".9" clip-path="url(#a)">
+                    <g opacity=".9" clipPath="url(#a)">
                       <path
                         d="m11.404 17.365 6.91-6.91-6.91-6.911m-6.911 6.91h12.44"
                         stroke="#6E00FF"

@@ -31,7 +31,7 @@ function Value() {
           </div>
         </div>
       </div>
-      <div className="w-[45%] ">
+      <div className="w-s[45%] ">
         <Card
           headerTxt="OUR VALUE"
           blackTxt="Unlocking Real Appraisal"

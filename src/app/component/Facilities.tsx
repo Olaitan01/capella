@@ -167,7 +167,7 @@ const facility = [
             fill="none"
             stroke="#6E00FF"
             strokeMiterlimit="10"
-            stroke-width="4"
+            strokeWidth="4"
           />
           <circle
             id="Ellipse_34"
@@ -184,8 +184,8 @@ const facility = [
             d="M271.994,420.632,272,428h16v-7.368"
             fill="none"
             stroke="#6E00FF"
-            stroke-miterlimit="10"
-            stroke-width="4"
+            strokeMiterlimit="10"
+            strokeWidth="4"
           />
           <path
             id="Path_75"
@@ -200,8 +200,8 @@ const facility = [
             d="M276,428l2,6h4l2-6"
             fill="none"
             stroke="#6E00FF"
-            stroke-miterlimit="10"
-            stroke-width="4"
+            strokeMiterlimit="10"
+            strokeWidth="4"
           />
           <path
             id="Path_77"
@@ -209,8 +209,8 @@ const facility = [
             d="M304,400a3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0"
             fill="none"
             stroke="#6E00FF"
-            stroke-miterlimit="10"
-            stroke-width="2"
+            strokeMiterlimit="10"
+            strokeWidth="2"
           />
           <path
             id="Path_78"
@@ -218,8 +218,8 @@ const facility = [
             d="M298,414a3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0,3,3,0,0,0-6,0"
             fill="none"
             stroke="#6E00FF"
-            stroke-miterlimit="10"
-            stroke-width="2"
+            strokeMiterlimit="10"
+            strokeWidth="2"
           />
           <path
             id="Path_79"
@@ -227,8 +227,8 @@ const facility = [
             d="M298,382a3,3,0,0,1-6,0,3,3,0,0,1-6,0,3,3,0,0,1-6,0,3,3,0,0,1-6,0,3,3,0,0,1-6,0,3,3,0,0,1-6,0"
             fill="none"
             stroke="#6E00FF"
-            stroke-miterlimit="10"
-            stroke-width="2"
+            strokeMiterlimit="10"
+            strokeWidth="2"
           />
           <line
             id="Line_136"
@@ -239,7 +239,7 @@ const facility = [
             stroke="#6E00FF"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            strokeWidth="2"
           />
           <line
             id="Line_137"
@@ -250,7 +250,7 @@ const facility = [
             stroke="#6E00FF"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            strokeWidth="2"
           />
           <line
             id="Line_138"
@@ -261,7 +261,7 @@ const facility = [
             stroke="#6E00FF"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            strokeWidth="2"
           />
           <line
             id="Line_139"
@@ -272,7 +272,7 @@ const facility = [
             stroke="#6E00FF"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            strokeWidth="2"
           />
           <line
             id="Line_140"
@@ -283,7 +283,7 @@ const facility = [
             stroke="#6E00FF"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="4"
+            strokeWidth="4"
             opacity="0.3"
           />
         </g>
@@ -324,12 +324,12 @@ const facility = [
 
 function Facilities() {
   return (
-    <div className="overflow-hidden  flex flex-row gap-[2em] items-center justify-center  py-8 w-[100%] ">
+    <div className="overflow-hidden  flex flex-row 2xl:gap-[2em] xl:gap-[1em] items-center justify-center  py-8 w-[93.75rem] ">
       {facility.map(({ amenities, icon }, index) => (
         <div key={index}>
           <div className="flex flex-row gap-2 items-center ">
             <span>{icon}</span>{" "}
-            <span className="inline-block  ">{amenities}</span>
+            <span className="inline-block text-[0.857rem] font-light ">{amenities}</span>
           </div>
         </div>
       ))}{" "}

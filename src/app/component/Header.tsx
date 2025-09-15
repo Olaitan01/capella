@@ -4,8 +4,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import logo from "../../../assets/header-logo.png";
-import Btn from "../utility/Btn";
+import logo from "../../assets/header-logo.png"
+import Btn from "./utility/Btn";
 import { Button } from "@mui/material";
 const navs = [
   { name: "Home", href: "/" },
@@ -18,22 +18,22 @@ function Header() {
   const pathname = usePathname();
 
   return (
-    <div className=" roundedEli flex justify-between items-center mx-auto w-[90%] py-4">
-      <div className="flex flex-row gap-[20em]">
+    <div className=" roundedEli flex justify-between items-center mx-auto w-[90%] py-4 text-sm font-light">
+      <div className="flex flex-row gap-[20em] md:gap-[10em] items-center">
         <div>
           <Image
             src={logo}
             alt="capaella logo"
-            className="max-w-full object-fill"
+            className="max-w-full w-20 object-fill"
           />
         </div>{" "}
         <div className="flex flex-row gap-x-[3em] items-center justify-center">
           {navs.map(({ name, href }, index) => (
-            <div key={index} className="flex flex-row gap-4 items-center ">
+            <div key={index} className="flex flex-row gap-4 items-center  ">
               <Link
                 href={href}
                 className={`${
-                  pathname === href ? "font-extrabold" : "font-extralight"
+                  pathname === href ? "font-extrabold" : "font-light"
                 }`}
               >
                 {name}
@@ -47,7 +47,8 @@ function Header() {
           variant="text"
           sx={{
             textTransform: "capitalize",
-            fontSize: "1rem",
+            fontSize: "0.875rem",
+            fontWeight: 300,
             color: "#000000",
           }}
         >

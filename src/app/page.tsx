@@ -25,23 +25,23 @@ function page() {
           <Image
             src={ellipse2}
             alt="ellipse2"
-            className="max-w-full object-fill absolute right-0 top-1/2 "
+            className="max-w-full object-fill absolute xl:right-1/8 xl:top-1/2 2xl:right-0 2xl:top-1/2 "
           />
 
           <Image
             src={ellipse3}
             alt="ellipse3"
-            className="max-w-full object-fill absolute top-1/8 -left-1/10"
+            className="max-w-full object-fill absolute   xl:bottom-[74.5%] 2xl:top-1/8  md:left-16 xl:left-1/14 "
           />
           <Image
             src={ellipse4}
             alt="ellipse4"
-            className="max-w-full object-fill absolute right-0"
+            className="max-w-full object-fill absolute xl:right-1/8 xl:top-1/8 2xl:right-0 "
           />
           <Image
             src={ellipse5}
             alt="ellipse5"
-            className="max-w-full object-fill absolute -right-4 top-[32em] "
+            className="max-w-full object-fill absolute xl:right-1/10 xl:bottom-[37%] "
           />
           <Image
             src={ellipse6}
@@ -53,10 +53,10 @@ function page() {
             <Image
               src={heroImg}
               alt="hero-image"
-              className="max-w-fit object-fill w-[1500px] "
+              className="max-w-fit object-fill lg:w-[93.75em]  sm:w-[40em] w-[20em] h-[40em] "
             />
           </div>
-          <h1 className="hero-font absolute  leading-[1.5em] text-6xl top-0 right-1/4 w-[12em]  text-center">
+          <h1 className="hero-font absolute  2xl:leading-[1.5em] 2xl:text-6xl xl:text-5xl top-0 2xl:right-1/4 w-[12em]  text-center flex flex-col justify-center items-center xl:right-1/4 leading-14 ">
             WE ARE A LEADING{" "}
             <b>
               <span className="text-[#000000] ">REAL ESTATE</span>{" "}

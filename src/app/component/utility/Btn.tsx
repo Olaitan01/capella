@@ -9,7 +9,8 @@ function Btn() {
           color: "#ffffff",
           background: "#000000",
           textTransform: "capitalize",
-          fontSize: "1rem",
+          fontSize: "0.875rem",
+          fontWeight:300,
           borderRadius: "4rem",
         }}
       >

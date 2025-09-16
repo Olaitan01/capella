@@ -90,9 +90,9 @@ function Listing() {
                       <path
                         d="m11.404 17.365 6.91-6.91-6.91-6.911m-6.911 6.91h12.44"
                         stroke="#6E00FF"
-                        stroke-width="2.688"
-                        stroke-miterlimit="20"
-                        stroke-linecap="square"
+                        strokeWidth="2.688"
+                        strokeMiterlimit="20"
+                        strokeLinecap="square"
                         opacity=".9"
                       />
                     </g>

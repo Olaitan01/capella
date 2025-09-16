@@ -37,18 +37,18 @@ function Homes() {
                       <path
                         d="M10.2851 17.7929L2.80569 10.3135L10.2851 2.83409"
                         stroke="white"
-                        stroke-width="2.90909"
-                        stroke-miterlimit="20"
-                        stroke-linecap="square"
+                        strokeWidth="2.90909"
+                        strokeMiterlimit="20"
+                        strokeLinecap="square"
                       />
                     </g>
                     <g opacity="0.9">
                       <path
                         d="M17.7645 10.3135H4.30115"
                         stroke="white"
-                        stroke-width="2.90909"
-                        stroke-miterlimit="20"
-                        stroke-linecap="square"
+                        strokeWidth="2.90909"
+                        strokeMiterlimit="20"
+                        strokeLinecap="square"
                       />
                     </g>
                   </g>
@@ -67,18 +67,18 @@ function Homes() {
                       <path
                         d="M9.34237 17.7924L16.8218 10.313L9.34237 2.8336"
                         stroke="white"
-                        stroke-width="2.90909"
-                        stroke-miterlimit="20"
-                        stroke-linecap="square"
+                        strokeWidth="2.90909"
+                        strokeMiterlimit="20"
+                        strokeLinecap="square"
                       />
                     </g>
                     <g opacity="0.9">
                       <path
                         d="M1.86298 10.313H15.3263"
                         stroke="white"
-                        stroke-width="2.90909"
-                        stroke-miterlimit="20"
-                        stroke-linecap="square"
+                        strokeWidth="2.90909"
+                        strokeMiterlimit="20"
+                        strokeLinecap="square"
                       />
                     </g>
                   </g>

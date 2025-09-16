@@ -17,9 +17,9 @@ function ArrowTxt({ text }: txtProps) {
           <path
             d="M3.118 15.782h12.665V3.117m-12.665 0 11.399 11.399"
             stroke="#6E00FF"
-            stroke-width="3.483"
-            stroke-miterlimit="20"
-            stroke-linecap="square"
+            strokeWidth="3.483"
+            strokeMiterlimit="20"
+            strokeLinecap="square"
             opacity=".9"
           />
         </svg>

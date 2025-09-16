@@ -237,8 +237,8 @@ const facility = [
             transform="translate(257 391)"
             fill="none"
             stroke="#6E00FF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="2"
           />
           <line
@@ -248,8 +248,8 @@ const facility = [
             transform="translate(274 391)"
             fill="none"
             stroke="#6E00FF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="2"
           />
           <line
@@ -259,8 +259,8 @@ const facility = [
             transform="translate(290 405)"
             fill="none"
             stroke="#6E00FF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="2"
           />
           <line
@@ -270,8 +270,8 @@ const facility = [
             transform="translate(281 405)"
             fill="none"
             stroke="#6E00FF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="2"
           />
           <line
@@ -281,8 +281,8 @@ const facility = [
             transform="translate(257 434)"
             fill="none"
             stroke="#6E00FF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             strokeWidth="4"
             opacity="0.3"
           />
@@ -324,12 +324,14 @@ const facility = [
 
 function Facilities() {
   return (
-    <div className="overflow-hidden  flex flex-row 2xl:gap-[2em] xl:gap-[1em] items-center justify-center  py-8 w-[93.75rem] ">
+    <div className="bg-[#ffffff] border-y-[0.05rem] border-[#A9A7A7] overflow-hidden  flex flex-row 2xl:gap-[2em] xl:gap-[1em] items-center justify-center  py-8 w-[93.75rem] ">
       {facility.map(({ amenities, icon }, index) => (
         <div key={index}>
           <div className="flex flex-row gap-2 items-center ">
             <span>{icon}</span>{" "}
-            <span className="inline-block text-[0.857rem] font-light ">{amenities}</span>
+            <span className="inline-block text-[0.857rem] font-light ">
+              {amenities}
+            </span>
           </div>
         </div>
       ))}{" "}

@@ -3,7 +3,7 @@
 
 :root {
   --foreground: #ffffff;
-  --background: rgb(240, 241, 246);
+  --background: #eff2f7;
 }
 
 @theme inline {
@@ -16,7 +16,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #0a0a0a;
-    --background: rgb(240, 241, 246);
+    --background: #eff2f7;
   }
 }
 
@@ -34,7 +34,8 @@ body {
   font-style: normal;
 }
 
-.solutions, .listing{
+.solutions,
+.listing {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

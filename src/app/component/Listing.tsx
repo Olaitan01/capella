@@ -15,7 +15,7 @@ const rentals = [
   {
     img: house3,
     name: "Harmony",
-    desc: "Our agents will guide you through the entire buying process, from property ",
+    desc: "Our agents will guide you through the entire buying process, from property.",
   },
   {
     img: house2,
@@ -41,26 +41,26 @@ const rentals = [
 
 function Listing() {
   return (
-    <div className="listing">
-      <div className="text-center flex flex-col justify-center items-center align-middle">
+    <div className="listing py-[8em] pl-[2em]">
+      <div className="text-center flex flex-col gap-4 justify-center items-center align-middle">
         <ArrowTxt text="DREAMER HOME" />
-        <span className="inline-block text-[3rem] w-[25%] leading-14">
+        <span className="inline-block 2xl:text-6xl xl:text-5xl 2xl:w-[25%] xl:w-[40%] leading-14 ">
           If You're In Need Of <span className="text-[#6E00FF]">Rental</span>{" "}
           Services
         </span>
       </div>
-      <div className="flex flex-row mx-auto  items-center justify-center my-[3.5em]  overflow-auto shrink-0 w-[2500px] ">
+      <div className="flex flex-row mx-auto  items-center justify-center my-[3.5em] overflow-auto shrink-0 w-[2500px] ">
         {rentals.map(({ img, name, desc }, index) => (
           <div key={index}>
             <div>
               <Image
                 src={img}
                 alt="listed house image"
-                className="max-w-full object-fill"
+                className="max-w-full xl:w-[22.5rem] object-fill"
               />
             </div>
             <div>
-              <div className="flex flex-col py-4 ">
+              <div className="flex flex-col py-4 font-light text-sm">
                 <span className="inline-block text-xl font-bold">{name}</span>
                 <span className="inline-block w-[60%] ">{desc}</span>
               </div>

@@ -11,6 +11,7 @@ import Facilities from "./component/Facilities";
 import Solutions from "./component/Solutions";
 import Listing from "./component/Listing";
 import Value from "./component/Value";
+import Homes from "./component/Homes";
 
 function page() {
   return (
@@ -69,6 +70,7 @@ function page() {
       <Solutions />
       <Listing />
       <Value />
+      <Homes />
     </div>
   );
 }

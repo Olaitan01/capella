@@ -1,6 +1,7 @@
-import React from "react";
+
 import Image from "next/image";
 import logo from "../../assets/Group 58.png";
+
 
 const navColumns = [
   {
